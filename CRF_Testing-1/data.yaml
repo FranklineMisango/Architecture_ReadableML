@@ -1,0 +1,14 @@
+names:
+- Fully_opened
+- Partially_opened
+- closed
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: crf_testing
+  url: https://universe.roboflow.com/franklines-space-ywbil/crf_testing/dataset/1
+  version: 1
+  workspace: franklines-space-ywbil
+test: ../test/images
+train: CRF_Testing-1/train/images
+val: CRF_Testing-1/valid/images
