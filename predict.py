@@ -6,7 +6,7 @@ import json
 rf = Roboflow(api_key="Dnpd4PGIz0Yu8Y5lBgup")
 project = rf.workspace("franklines-space-ywbil").project("crf_testing")
 model = project.version(5).model
-image_location = "Test_Run_CRF/image/November_2023.png"
+image_location = "/home/misango/code/Architecture_ReadableML/Test_images/Test_screenshot.png"
 
 # infer on a local image
 saved_json = model.predict(image_location, confidence=40, labels='draw').json()

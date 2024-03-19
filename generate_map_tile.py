@@ -20,8 +20,8 @@ class GoogleMapDownloader:
                 zoom:   The zoom level of the location required, ranges from 0 - 23
                         defaults to 12
         """
-        self._lat = lat
-        self._lng = lng
+        self._lat = 22.3707816
+        self._lng = 114.1267948
         self._zoom = zoom
 
     def getXY(self):

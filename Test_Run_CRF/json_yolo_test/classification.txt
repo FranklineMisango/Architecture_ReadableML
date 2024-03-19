@@ -1,0 +1,13 @@
+__background__
+C1
+C2
+F1
+F3
+F4
+W1
+W2
+F2
+W3
+W4
+F5
+F6

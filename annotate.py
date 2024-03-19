@@ -2,7 +2,7 @@ from roboflow import Roboflow
 import supervision as sv
 import cv2
 
-image_location = '/home/misango/code/Architecture_ReadableML/Test_Run_CRF/image/Refined_November_2020.png'
+image_location = "Test_images/hk_image_5.jpg"
 
 rf = Roboflow(api_key="Dnpd4PGIz0Yu8Y5lBgup")
 project = rf.workspace().project("crf_testing")
